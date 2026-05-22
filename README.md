@@ -3,7 +3,7 @@ Voice-based authentication and authorization system using Python Speech Recognit
 
 
 
-## 🚀 Features
+## 🚀 Features 
 * **Voice Passphrase Authentication:** Utilizes the microphone to capture audio and processes it using the Google Speech Recognition API.
 * **Role-Based Access Control (RBAC):** Dynamically assigns users to specific Linux security groups based on the recognized passphrase.
 * **Automated Group Mapping:** Uses Python's `subprocess` and `os` modules to execute system-level commands for permission management.
