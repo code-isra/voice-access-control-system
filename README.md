@@ -3,14 +3,14 @@ Voice-based authentication and authorization system using Python Speech Recognit
 
 
 
-## 🚀 Features 
+##  Features 
 * **Voice Passphrase Authentication:** Utilizes the microphone to capture audio and processes it using the Google Speech Recognition API.
 * **Role-Based Access Control (RBAC):** Dynamically assigns users to specific Linux security groups based on the recognized passphrase.
 * **Automated Group Mapping:** Uses Python's `subprocess` and `os` modules to execute system-level commands for permission management.
 
 ---
 
-## 🛠️ Tools and Technologies
+##  Tools and Technologies
 * **Language:** Python 3
 * **OS Target:** Linux Ubuntu
 * **Primary Libraries:** `SpeechRecognition`, `pyaudio`
@@ -19,7 +19,7 @@ Voice-based authentication and authorization system using Python Speech Recognit
 
 ---
 
-## ⚙️ Initial Requirements & Setup
+##  Initial Requirements & Setup
 
 **To get this system running locally on an Ubuntu environment, follow these preparation steps:**
 1. Download VirtualBox and Ubuntu ISO file to set up the virtual machine.
@@ -50,7 +50,7 @@ directory and only have access to /home/client1/Sys directory:
   sudo chmod -R 700 /home/client1 
   sudo chmod -R 700 /home/**
 
-## ⚙️ Running the code!
+##  Running the code!
 1. To run the code, download the file “voice_authentication.py”. Then run it using the
 command: python3 voice_authentication.py.
 2.  The program will prompt the user to say the passphrase, the user must be close to 
